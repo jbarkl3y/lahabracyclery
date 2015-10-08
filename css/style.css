@@ -34,6 +34,16 @@ body {
 .navbar-default .navbar-nav>li>a {
     color: white;
 }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color:lightgrey;
+    background-color: rgba(75,75,75,.8); /*light grey */
+}
+.navbar-default .navbar-nav>li>a:visited{
+    color:white;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color:lightgrey;
+}
 
 .intro-section {
     height: 100%;
