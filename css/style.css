@@ -54,14 +54,15 @@ body {
     height: 100%;
     padding: 40px 10px;
     text-align: center;
+    background-color: rgba(15,117,189,.1);
 }
-.about-section h1 {
+.about-section h1, h3 {
     padding-bottom: 1rem;
     color: white;
 }
 .about-section img {
-    height: 100px;
-    width: 200px;
+    height: 6.25rem;
+    width: 12.5rem;
 }
 .services-section {
     /*height: 100%;*/
@@ -79,17 +80,19 @@ body {
 .table-striped>tbody>tr:nth-child(even)>th {
    background-color: white;
  }
+ .services-section table {
+    width: 28rem;
+    height: 10rem;
+ }
 .contact-section {
-    height: 100%;
-    padding: 40px, 0, 0, 0;
+    /*height: 100%;*/
+    padding: 1.25rem 0 10rem 0;
     text-align: center;
     color: white;
-}
-
-.contact-section p {
-    font-size: 2rem;
+    background-color: rgba(15,117,189,.1);
 }
 #footer {
     text-align: center;
-    color: white;
+    color: lightgrey;
+    background-color: rgba(15,117,189,.1);
 }
