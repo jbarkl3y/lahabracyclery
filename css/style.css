@@ -90,6 +90,9 @@ body {
     color: white;
     background-color: rgba(15,117,189,.1);
 }
+#map {
+    padding-top: 1rem;
+}
 #footer {
     text-align: center;
     color: lightgrey;
