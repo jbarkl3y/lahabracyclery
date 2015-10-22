@@ -27,6 +27,7 @@ html {
 body {
     background: url('../img/bikeshop.jpg') no-repeat center center fixed;
     background-size: cover;
+
 }
 .navbar-default {
     background-color: rgba(0,0,0,.8);
@@ -49,11 +50,13 @@ body {
     height: 100%;
     padding-top: 100px;
     text-align: center;
+    background-color: rgba(0,0,0,.3);
 }
 .about-section {
     height: 100%;
     padding: 40px 10px;
     text-align: center;
+    background-color: rgba(0,0,0,.3);
 }
 .about-section h1, h3 {
     padding-bottom: 1rem;
@@ -67,6 +70,7 @@ body {
     /*height: 100%;*/
     padding: 40px 0;
     text-align: center;
+    background-color: rgba(0,0,0,.3);
 }
 .services-section h1, h6{
     color: white;
@@ -88,13 +92,16 @@ body {
     padding: 1.25rem 0 10rem 0;
     text-align: center;
     color: white;
-    background-color: rgba(15,117,189,.1);
+    /*background-color: rgba(15,117,189,.1);*/
+    background-color: rgba(0,0,0,.3);
 }
 #map {
     padding-top: 1rem;
+    pointer-events: none;
 }
 #footer {
     text-align: center;
     color: lightgrey;
-    background-color: rgba(15,117,189,.1);
+    /*background-color: rgba(15,117,189,.1);*/
+    background-color: rgba(0,0,0,.3);
 }
