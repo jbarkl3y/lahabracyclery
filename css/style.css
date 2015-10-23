@@ -66,6 +66,10 @@ body {
     height: 10rem;
     width: 20rem;
 }
+.about-section li{
+    list-style: none;
+    color: white;
+}
 .services-section {
     /*height: 100%;*/
     padding: 40px 0;
